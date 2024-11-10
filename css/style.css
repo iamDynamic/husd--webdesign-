@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-image: url(/images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    height: 90vh;
+}
+nav .logo img{
+    margin-left: 100px
+}
+nav .center {
+    margin-top: 10px;
+}
+nav .center a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 20px;
+}
+nav .center a:hover{
+    text-decoration: underline;
+}
+nav .end button{
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+nav .end button:hover{
+    background-color: transparent;
+}
+article{ 
+   margin-left: 200px;
+   margin-top: 150px;
+}
+article h1{
+    text-transform: capitalize;
+    font-size: 90px;
+}
+article span{
+    color: cornflowerblue;
+}
+article p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+article button{
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+section{
+    height: 70vh;
+    background-color: #fff;
+}
+.p2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p2 aside img{
+    width: 600px;
+
+}
+.p2 main h1{
+    font-size: 90px;
+    text-transform: capitalize;
+}
+.p2 main p{
+    font-size: 20px;
+}
+@media (max-width:1019px) {
+    .p2{
+        display: grid;
+    }
+}
+@media (max-width:800px) {
+    .p1 article h1{
+        font-size: 60px;
+    }
+}
